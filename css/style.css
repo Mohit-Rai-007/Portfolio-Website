@@ -1,0 +1,164 @@
+@import 'utilities.css';
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border_box;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+header {
+    background: var(--dark);
+    clip-path: polygon(72% 0, 100% 0, 100% 100%, 74% 89%, 0 100%, 0% 60%, 0 0);
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0rem;
+}
+
+header nav .branding {
+    margin-right: 3rem;
+}
+.hero{
+    padding: 0.1rem 0rem;
+}
+
+
+.left_hero img {
+    filter: drop-shadow(10px 10px 20px rgb(255, 255, 255));
+}
+
+.hero .right_hero {
+    color: var(--pure);
+}
+
+.hero .right_hero h6 {
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right_hero h1{
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: rem;
+}
+.hero .right_hero h1 span{
+    color: var(--primary);
+    font-size: 4rem;
+}
+.hero .right_hero p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.right_hero {
+    position: relative;
+    top: -100px; /* Move upwards */
+}
+section{
+    padding: 6rem 0rem;
+}
+section.About h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+section.About h1 span{
+    color: var(--primary);
+}
+section.About h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+section.About p{
+    font-family: 'Lato',sans-serif;
+}
+
+.socials a {
+    font-size: 32px;  /* Increases icon size */
+    margin: 0 15px;   /* Adds space between icons */
+    color: #333;      /* Default icon color */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;  /* Smooth transition */
+    display: inline-block; /* Ensures spacing works properly */
+}
+
+.socials a:hover {
+    transform: scale(1.2);  /* Slightly enlarges icons on hover */
+    color: var(--primary);  /* Changes color on hover */
+}
+
+section.MYEducation {
+    background: var(--dark);
+    clip-path: polygon(72% 10%, 100% 0, 100% 100%, 74% 89%, 0 100%, 0% 60%, 0 0);
+
+
+}
+
+section.MYEducation .admission img{
+    border-radius: 25px;
+    border-color: var(--primary);
+    border-width: 5px;
+    width: 100%; /* Makes it responsive */
+    max-width: 450px; /* Prevents it from being too large */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); /* Subtle shadow */
+}
+section.MYEducation .education span{
+    color: var(--primary);
+}
+
+section.MYEducation .education{
+    color: var(--light);
+}
+
+
+section.progressbar{
+    background-color: var();
+}
+
+section.progressbar h1{
+    color: var(--primary);
+    text-align: center;
+}
+
+section.Certificate{
+    background-color: var(--dark);
+    clip-path: polygon(72% 10%, 100% 0, 100% 100%, 74% 89%, 0 100%, 0% 60%, 0 0);
+}
+section.Certificate .certificate-text h1 span{
+    color: var(--primary);
+    font-weight: 600;
+}
+section.Certificate .certificate-text{
+    color: white;
+    text-align: center;
+}
